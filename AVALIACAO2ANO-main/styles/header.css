@@ -63,3 +63,25 @@ text-transform: uppercase;
 .titulo_cabbecalho{
     display: none;
 }
+.container_botao:checked~.lista-menu{
+    display: block;
+}
+.lista-menu_titulo, .lista-menu_item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+.titulo_cabbecalho{
+    display: block;
+}
+@media screen and (min-width:  1024px){
+   .titulo_cabbecalho{
+    font-size: 30px;
+    font-family: var(--font-ecundaria);
+    color: rgb(43, 226,101);
+    display: block;
+   }
+}
+
+   
+    
+
